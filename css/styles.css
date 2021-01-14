@@ -4,6 +4,20 @@
 /* основной цвет фона          #FFFFFF */
 /* цвет фона нашей команды     #F5F4FA */
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --title-text-color: #757575;
   --primary-text-color: #212121;
@@ -19,6 +33,9 @@ body {
 }
 
 /* header */
+header {
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   text-decoration: none;
@@ -86,7 +103,85 @@ ul {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
 }
+
 /* СЕКЦИИ */
+/* ===================Header================== */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav {
+  display: flex;
+}
+
+/* ================   END Header   ============== */
+
+/* ================   Studia   =================== */
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about {
+  margin-left: -30px;
+}
+.item {
+  margin-left: 30px;
+  /* flex-basis: calc(100% / 3 - 10px); */
+  width: 270px;
+}
+
+.list-img {
+  display: flex;
+  margin-left: -30px;
+  padding-left: 0px;
+}
+
+.list-name {
+  display: flex;
+}
+.item-img {
+  margin-left: 30px;
+  width: 370px;
+  /* justify-content: center;
+  padding-left: 15px; */
+}
+.item-name {
+  margin-left: 30px;
+  /* width: 270px; */
+  padding-inline-start: 0px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+.list-name {
+  padding: 0px;
+  margin-left: -30px;
+}
+
+/* ================   END Studia   ===================== */
+
+/* ================   Portfolio   =============== */
+.list-button {
+  display: flex;
+  justify-content: center;
+}
+
+.list-work {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.item-work {
+  width: 370px;
+  padding: 0px;
+  margin-left: 30px;
+  margin-top: 30px;
+  /* flex-basis: calc(100% / 3 - 30px); */
+}
+
+/* ================   END Portfolio   ========== */
 .section-title {
   color: var(--primary-text-color);
 
@@ -94,7 +189,20 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  padding-left: 24px;
+  width: 322px;
+  height: 36px;
+  margin-bottom: 0px;
 }
+
+.desk {
+  padding-left: 24px;
+  margin-top: 4px;
+  width: 322px;
+  height: 30px;
+}
+
 .section-link {
   color: var(--primary-text-color);
   font-weight: bold;
