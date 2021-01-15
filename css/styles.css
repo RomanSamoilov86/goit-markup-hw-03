@@ -6,12 +6,28 @@
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+}
 *,
 *::before,
 *::after {
@@ -102,12 +118,15 @@ ul {
 .hero .hero-btn {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
+  display: block;
+  margin: auto;
 }
 
 /* СЕКЦИИ */
 /* ===================Header================== */
 
-.header {
+.header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +134,13 @@ ul {
 .site-nav {
   display: flex;
 }
+.auth-nav {
+  display: flex;
+}
 
+.link-auth {
+  margin-left: 50px;
+}
 /* ================   END Header   ============== */
 
 /* ================   Studia   =================== */
@@ -146,8 +171,7 @@ ul {
 .item-img {
   margin-left: 30px;
   width: 370px;
-  /* justify-content: center;
-  padding-left: 15px; */
+  justify-content: space-between;
 }
 .item-name {
   margin-left: 30px;
@@ -158,6 +182,9 @@ ul {
 .list-name {
   padding: 0px;
   margin-left: -30px;
+}
+.hero-btn {
+  min-width: 200px;
 }
 
 /* ================   END Studia   ===================== */
@@ -176,8 +203,8 @@ ul {
 .item-work {
   width: 370px;
   padding: 0px;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin: auto;
+
   /* flex-basis: calc(100% / 3 - 30px); */
 }
 
