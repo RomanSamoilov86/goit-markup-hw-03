@@ -180,13 +180,19 @@ ul {
 }
 
 .text {
-  line-height: normal;
+  line-height: 1.71;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
-  width: 1600px;
+  padding-bottom: 200px;
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -279,13 +285,14 @@ ul {
 .list-work {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .item-work {
   width: 370px;
-  margin-left: 15px;
-  margin-top: 15px;
-  flex-basis: calc(100% / 3 - 15px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .item-button {
@@ -303,6 +310,13 @@ ul {
   height: 38px;
   margin: auto;
   padding: 6px 22px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .container .list-work {
@@ -310,19 +324,16 @@ ul {
 }
 
 .section-desk {
-  height: 110px;
-  width: 370px;
   padding: 24px 20px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  /* margin-bottom: 30px; */
 }
 
 .section-title {
   color: var(--primary-text-color);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 18px;
+  line-height: 2;
   width: 322px;
   height: 36px;
   margin-bottom: 0px;
@@ -368,11 +379,9 @@ ul {
 
 .footer {
   background-color: #2f303a;
-  height: 252px;
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -421,7 +430,6 @@ button:focus {
 }
 
 .footer .container {
-  margin: 0px;
   padding: 0px 15px;
 }
 
