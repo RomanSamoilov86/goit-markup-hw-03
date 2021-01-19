@@ -175,10 +175,6 @@ ul {
 
 /* ================   Studia   =================== */
 
-.container .about {
-  margin-top: 94px;
-}
-
 .text {
   line-height: 1.71;
   font-family: Roboto;
@@ -210,13 +206,8 @@ ul {
 
 .about {
   display: flex;
-  justify-content: space-evenly;
-  /* padding: ; */
-}
-
-.about {
+  justify-content: space-evenly
   margin-left: -30px;
-  margin-bottom: 94px;
 }
 
 .item {
@@ -228,6 +219,13 @@ ul {
 .item .section-title {
   padding-left: 0px;
   width: 270px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .list-img {
@@ -238,7 +236,6 @@ ul {
 
 .list-name {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .item-img {
@@ -266,6 +263,26 @@ ul {
 
 .section-job {
   padding-bottom: 30px;
+}
+
+.section-about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.section-work {
+  padding-bottom: 94px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.section-team {
+   padding-top: 94px;
+  padding-bottom: 94px;
+  max-width: 1600px;
+  margin: auto;
 }
 
 /* ================   END Studia   ===================== */
