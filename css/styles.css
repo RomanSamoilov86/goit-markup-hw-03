@@ -85,7 +85,7 @@ body {
   margin-left: 50px;
 }
 
-header {
+.header-nav {
   border-bottom: 1px solid #ececec;
 }
 
@@ -285,18 +285,21 @@ ul {
   margin: auto;
 }
 
+.section-our {
+  padding-bottom: 94px;
+  max-width: 1600px;
+  margin: auto;
+}
+
 /* ================   END Studia   ===================== */
 
 /* ================   Portfolio   =============== */
 
-.header-nav {
-  margin-bottom: 94px;
-}
 
 .list-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+ 
 }
 
 .list-work {
@@ -336,10 +339,6 @@ ul {
   text-align: center;
 }
 
-.container .list-work {
-  margin-bottom: 94px;
-}
-
 .section-desk {
   padding: 24px 20px;
   border: 1px solid #eeeeee;
@@ -354,6 +353,13 @@ ul {
   width: 322px;
   height: 36px;
   margin-bottom: 0px;
+}
+
+.section-btn {
+      padding-top: 94px;
+    padding-bottom: 50px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 /* ================   END Portfolio   ========== */
