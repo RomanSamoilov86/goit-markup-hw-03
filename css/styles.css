@@ -200,10 +200,6 @@ ul {
   padding-bottom: 50px;
 }
 
-.list-img {
-  margin-bottom: 94px;
-}
-
 .about {
   display: flex;
   justify-content: space-evenly;
@@ -297,6 +293,7 @@ ul {
 .list-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .list-work {
@@ -352,11 +349,9 @@ ul {
   margin-bottom: 0px;
 }
 
-.section-btn {
+.section {
   padding-top: 94px;
-  padding-bottom: 50px;
-  max-width: 1600px;
-  margin: auto;
+  padding-bottom: 94px;
 }
 
 /* ================   END Portfolio   ========== */
